@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Lato", sans-serif;
+  }
+  
+.w3-bar,h1,button {
+  font-family: "Montserrat", sans-serif;
+  }
+  .fa-anchor,.fa-paw, .fas {font-size:200px;
+  }
+
+  .ball {
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+  }
+  
+  @keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    
+    to {
+      transform: translateY(-15px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
+
+  .vertical-align {
+    vertical-align: middle;
+  }
