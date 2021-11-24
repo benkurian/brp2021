@@ -6,6 +6,19 @@ html {
     font-family: "Lato", sans-serif;
   }
   
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .bgimg-1 {
+    background-image: url('/images/parallax1.jpg');
+    min-height: 100%;
+  }
+
 .w3-bar,h1,button {
   font-family: "Montserrat", sans-serif;
   }
