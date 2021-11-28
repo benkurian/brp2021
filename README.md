@@ -1,6 +1,6 @@
 # BRP2021
 
-The Bear Research Project 2021 is a research project led by Joseph Edward Gunder, Benjamin Kurian, an Arjun Urmil Pandya to learn about the anatomy of the specimen "Gummarus Ursa."
+The Bear Research Project 2021 is a research project led by Joseph Edward Gunder, Benjamin Kurian, and Arjun Urmil Pandya to learn about the anatomy of the specimen "Gummarus Ursa."
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
