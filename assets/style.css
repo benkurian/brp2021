@@ -1,3 +1,81 @@
+/* COLOR PALETTE*/
+.safety-orange-blaze-orange {
+color:#fb6107ff;
+}
+.minion-yellow {
+color:#f3de2cff;
+}
+.apple-green {
+color:#7cb518ff;
+}
+.avocado {
+color:#5c8001ff;
+}
+.honey-yellow {
+  color:#fbb02dff;
+}
+
+
+.navbar-color {
+  animation-name: backgroundColorPalette;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease linear; 
+  /* linear is enabled default, it’s not necessary to add it make it work but it can make your code more expressive */
+}
+
+@keyframes backgroundColorPalette {
+  0% {
+    background: #fb6107ff;
+  }
+  33% {
+    background: #fbb02dff;
+  }
+  66% {
+    background: #f3de2cff;
+  }
+  100% {
+    background: #7cb518ff;
+  }
+ 
+}
+
+
+.bgimg-1 {
+  background-image: url('/images/parallax1.jpg');
+  min-height: 100%;
+}
+
+.w3-bar,h1,button {
+font-family: "Montserrat", sans-serif;
+}
+.fa-anchor,.fa-paw, .fas {font-size:200px;
+}
+
+.ball {
+  animation: bounce 1s ease infinite alternate;
+  -webkit-animation: bounce 1s ease infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+} 
+
 html {
     scroll-behavior: smooth;
   }
@@ -7,7 +85,7 @@ html {
     font-family: "Montserrat";
   }
   body,h1,h2,h3,h4,h5,h6 {
-    font-family: "Lato", sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
   
   .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -18,40 +96,25 @@ html {
   }
 
 
-  .bgimg-1 {
-    background-image: url('/images/parallax1.jpg');
-    min-height: 100%;
-  }
-
-.w3-bar,h1,button {
-  font-family: "Montserrat", sans-serif;
-  }
-  .fa-anchor,.fa-paw, .fas {font-size:200px;
-  }
-
-  .ball {
-    animation: bounce 1s infinite alternate;
-    -webkit-animation: bounce 1s infinite alternate;
-  }
   
-  @keyframes bounce {
-    from {
-      transform: translateY(0px);
-    }
-    
-    to {
-      transform: translateY(-15px);
-    }
-  }
-  @-webkit-keyframes bounce {
-    from {
-      transform: translateY(0px);
-    }
-    to {
-      transform: translateY(-15px);
-    }
-  }
 
   .vertical-align {
     vertical-align: middle;
+  }
+
+  .w3-circle-safety-orange-blaze-orange {
+    outline: 10px solid #fb6107ff;
+  }
+  
+  .w3-circle-honey-yellow {
+    outline: 10px solid #fbb02dff;
+  }
+
+  .w3-circle-avocado {
+    outline: 10px solid #5c8001ff;
+  }
+
+  .ben-drop-shadow {
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
   }

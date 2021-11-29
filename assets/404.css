@@ -1,3 +1,19 @@
+/* COLOR PALETTE*/
+.safety-orange-blaze-orange {
+    color:#fb6107ff;
+  }
+  .minion-yellow {
+    color:#f3de2cff;
+  }
+  .apple-green {
+    color:#7cb518ff;
+  }
+  .avocado {
+    color:#5c8001ff;
+  }
+  .honey-yellow {
+    color:#fbb02dff;
+  } 
     @import url("https://fonts.googleapis.com/css?family=Montserrat");
     * {
           box-sizing: border-box;
@@ -7,7 +23,7 @@
           min-height: 130vh;
           background: linear-gradient(35deg, #a1eeeb 30%, #4331ec 85%);
           background: linear-gradient(35deg, #f8d60f 20%, #fc5c5c 85%);
-          background: linear-gradient(65deg, green 20%,yellow 20%, navy 65%, #fc5c5c 65%, orange 85%);
+          background: linear-gradient(65deg, #5c8001 20%,#7cb518 20%, #f3de2c 65%, #fbb02d 65%, #fb6107 85%);
         }
         canvas {
           height: 30vh;
