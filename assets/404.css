@@ -1,0 +1,41 @@
+    @import url("https://fonts.googleapis.com/css?family=Montserrat");
+    * {
+          box-sizing: border-box;
+        }
+        body {
+          font-family: 'Monsterrat', sans-serif;
+          min-height: 130vh;
+          background: linear-gradient(35deg, #a1eeeb 30%, #4331ec 85%);
+          background: linear-gradient(35deg, #f8d60f 20%, #fc5c5c 85%);
+          background: linear-gradient(65deg, green 20%,yellow 20%, navy 65%, #fc5c5c 65%, orange 85%);
+        }
+        canvas {
+          height: 30vh;
+          left: 0;
+          position: absolute;
+          top: 0;
+          width: 100vw;
+        }
+        canvas {
+          top: 50%;
+          transform: translate(0, -50%);
+        }
+        .content {
+          align-items: center;
+          color: #fafafa;
+          display: flex;
+          height: 100vh;
+          width: 100vw;
+          position: absolute;
+          justify-content: center;
+          z-index: 2;
+        }
+        .content h1 {
+          font-size: 4rem;
+          text-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+        }
+        @media (min-width: 768px) {
+          .content h1 {
+            font-size: 10rem;
+          }
+        }
