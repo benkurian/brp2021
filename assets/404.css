@@ -20,7 +20,7 @@
         }
         body {
           font-family: 'Monsterrat', sans-serif;
-          min-height: 130vh;
+          min-height: 125vh;
           background: linear-gradient(35deg, #a1eeeb 30%, #4331ec 85%);
           background: linear-gradient(35deg, #f8d60f 20%, #fc5c5c 85%);
           background: linear-gradient(65deg, #5c8001 20%,#7cb518 20%, #f3de2c 65%, #fbb02d 65%, #fb6107 85%);
