@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html itemscope="" itemtype="http://schema.org/WebPage" lang="en">
-<head>
-<title>Bear Research Project - Recruit List</title>
+<html lang="en">
 
+<head>
+  <title>Bear Research Project - Login</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login System</title>
+  <link rel="stylesheet" href="login.css">
+  <script defer src="login.js"></script>
 <meta charset="UTF-8">
 <meta name="application-name" content="Bear Research Project">
 <meta name="generator" content="Visual Studio Code">
@@ -15,8 +20,10 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 <link rel="stylesheet" href="/assets/style.css">
-<link rel="stylesheet" href="/assets/recruitlist.css">
 <link rel="shortcut icon" type="image/png" href="/images/icon.png"/>
+<link rel="stylesheet" href="/login.css">
+<script src="/login.js"></script>
+
 
 </head>
 <body>
@@ -24,9 +31,9 @@
 <div class="w3-top">
   <div class="w3-bar navbar-color w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="/" class="w3-bar-item w3-button w3-padding-large">Bear Research Project</a>
+    <a href="/" class="w3-white w3-bar-item w3-button w3-padding-large">Bear Research Project</a>
     <a href="/index.html#basic_summary" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Basic Summary</a>
-    <a href="/index.html#who_we_are" class="w3-white w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Who We Are</a>
+    <a href="/index.html#who_we_are" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Who We Are</a>
     <a href="/index.html#what_we_know" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">What We Know</a>
     <a href="/recruit.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Join the Bear Army</a>  
 </div>
@@ -39,18 +46,26 @@
     <a href="/recruit.html" class="w3-bar-item w3-button w3-padding-large">Join the Bear Army</a>
   </div>
 </div>
-
-<!-- Header -->
-<header class="bgimg-1 w3-display-container  w3-container w3-center" style="padding:128px 16px">
-  <div><h1 class="w3-margin w3-jumbo ball">RECRUIT LIST</h1>
-  <p class="w3-xlarge">A list of all of our recruits.</p>
-
-</header>
 <br><br><br>
-  <center>
-    <div style="margin: 0px 50px 0px 50px;">
-  <script src="/assets/recruitlist.js"></script>
-  </div>
+  <main id="main-holder" style="margin: 0px 70px 0px 70px;">
+ <center> <h1 id="login-header">Login</h1></center>
+    <br>
+    <div id="login-error-msg-holder">
+      <p class="login-error-msg" id="login-error-msg">Invalid username <span id="error-msg-second-line">or password</span></p>
+    </div>
+    
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username" onpaste="return false;" ondrop="return false;" autocomplete="off">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password" onpaste="return false;" ondrop="return false;" autocomplete="off">
+      <input class="submit navbar-color" type="submit" value="Login" id="login-form-submit">
+    </form>
+    <br>
+    <center>
+    <input class="checkboxforlogin" type="checkbox" onclick="showPassword()">&nbsp;Show Password
   </center>
+
+  </main>
 </body>
+
 </html>
+

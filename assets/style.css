@@ -114,6 +114,10 @@ html {
     outline: 10px solid #5c8001ff;
   }
 
+  .w3-circle-apple-green {
+    outline: 10px solid #7cb518ff;
+  }
+
   .ben-drop-shadow {
     padding: 10px;
     box-shadow: 5px 10px 8px #888888;
@@ -121,4 +125,17 @@ html {
 
   .imghover:hover {
     opacity: 50%;
+  }
+
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  button {
+    border-radius: 4px;
   }
