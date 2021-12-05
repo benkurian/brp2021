@@ -12,14 +12,15 @@ BtnLog.addEventListener("click", (e) => {
     if (username === "admin" && password === "glathriploi") {
       ErrorMessage.style.opacity = 0;
       window.open("https://benkurian.github.io/assets/admincontrol.html","_self");
-        location.reload();
+
     } else {
         ErrorMessage.style.opacity = 1;
     }
 
     if (username === "recruit" && password === "brarmyrcrt") {
-      ErrorMessage.style.opacity = 0 && window.open("https://benkurian.github.io/assets/recruitcontrol.html","_self");
-        location.reload();
+      ErrorMessage.style.opacity = 0;
+      window.open("https://benkurian.github.io/assets/recruitcontrol.html","_self");
+
     } else {
         ErrorMessage.style.opacity = 1;
     }
