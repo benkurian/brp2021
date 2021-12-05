@@ -18,8 +18,7 @@ BtnLog.addEventListener("click", (e) => {
     }
 
     if (username === "recruit" && password === "brarmyrcrt") {
-      ErrorMessage.style.opacity = 0;
-      window.open("https://benkurian.github.io/assets/recruitcontrol.html","_self");
+      ErrorMessage.style.opacity = 0 && window.open("https://benkurian.github.io/assets/recruitcontrol.html","_self");
         location.reload();
     } else {
         ErrorMessage.style.opacity = 1;
