@@ -10,8 +10,8 @@ BtnLog.addEventListener("click", (e) => {
     ErrorMessage.style.opacity = 0;
 
     if (username === "admin" && password === "glathriploi") {
-      ErrorMessage.style.opacity = 0;
-      window.open("https://benkurian.github.io/assets/admincontrol.html","_self");
+      
+      window.open("https://benkurian.github.io/assets/admincontrol/admincontrol.html","_self");
 
     } else {
         ErrorMessage.style.opacity = 1;
