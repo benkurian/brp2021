@@ -16,7 +16,6 @@
 
 
 ## General Information
-- Provide general information about your project here.
 - We intend to solve the problem of unknown information of Gummarus Ursas (also known as *bears*).
 - The purpose of this project is to inform others about bears and give them jobs for the *Bear Army*.
 - Ben (the coder), wanted to learn GitHub and HTML
@@ -73,7 +72,6 @@ To do:
 
 
 ## Acknowledgements
-Give credit here.
 - The homepage was based on [this template](https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_start_page&stacked=h.
 - Many thanks to...
 - W3Schools
