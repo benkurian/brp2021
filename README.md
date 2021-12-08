@@ -29,6 +29,10 @@
 - [_GitHub_](https://github.com)
 - [_GitHub Pages_](https://pages.github.com)
 - [_Dillinger_](https://dillinger.io)
+- [_Font Awesome_](https://fontawesome.com) - version 5.15.4
+- [_Babel JS_](https://babeljs.io) - version 7.16
+- [_W3CSS_](https://www.w3schools.com/w3css/default.asp) - version 4.15
+- [_Bootstrap_](https://getbootstrap.com) - version 5.1
 
 
 ## Features
