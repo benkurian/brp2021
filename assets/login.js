@@ -11,7 +11,7 @@ BtnLog.addEventListener("click", (e) => {
 
     if (username === "admin" && password === "glathriploi") {
       
-      window.open("https://benkurian.github.io/assets/admincontrol/admincontrol.html","_self");
+      window.open("/assets/admincontrol/admincontrol.html","_self");
 
     } else {
         ErrorMessage.style.opacity = 1;
@@ -19,7 +19,7 @@ BtnLog.addEventListener("click", (e) => {
 
     if (username === "recruit" && password === "brarmyrcrt") {
       ErrorMessage.style.opacity = 0;
-      window.open("https://benkurian.github.io/assets/recruitcontrol.html","_self");
+      window.open("/assets/recruitcontrol.html","_self");
 
     } else {
         ErrorMessage.style.opacity = 1;

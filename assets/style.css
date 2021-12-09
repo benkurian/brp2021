@@ -50,8 +50,9 @@ color:#5c8001ff;
 .w3-bar,h1,button {
 font-family: "Montserrat", sans-serif;
 }
-.fa-anchor,.fa-paw, .fas {font-size:200px;
+.fa-search-plus ,.fa-paw {font-size:200px;
 }
+
 
 .ball {
   animation: bounce 1s ease infinite alternate;

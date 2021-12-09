@@ -21,14 +21,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"><!DOCTYPE html>
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar navbar-color w3-card w3-left-align w3-large">
+  <div class="w3-bar navbar-color w3-card w3-large">
+  <div class="w3-left">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="/" class="w3-white w3-bar-item w3-button w3-padding-large">Bear Research Project</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Bear Research Project</a>
     <a href="/index.html#basic_summary" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Basic Summary</a>
     <a href="/index.html#who_we_are" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Who We Are</a>
     <a href="/index.html#what_we_know" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">What We Know</a>
     <a href="/recruit.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Join the Bear Army</a>  
-</div>
+  </div>
+  <div class="w3-right">
+
+    <a href="/assets/login.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white"><b>admin</b>
+      <i class="fas fa-sign-out-alt" style="color: black; font-size: auto; padding:3px 6px!important"></i>
+    </a>  
+  </div>
+  </div>
+  
+
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
@@ -36,9 +46,9 @@
     <a href="/index.html#who_we_are" class="w3-bar-item w3-button w3-padding-large">Who We Are</a>
     <a href="/index.html#what_we_know" class="w3-bar-item w3-button w3-padding-large">What We Know</a>
     <a href="/recruit.html" class="w3-bar-item w3-button w3-padding-large">Join the Bear Army</a>
+      <a href="/assets/login.html" class="w3-bar-item w3-button w3-padding-large">Login</a>
   </div>
-  </div>
-
+</div>
 <br><br><br>
 <div style="margin-left: 1rem;">
 <h1>Hello, <b>admin</b>!  </h1>
@@ -56,53 +66,50 @@
   </header>
 
   <div class="w3-row-padding w3-margin-bottom">
-    <div class="w3-quarter">
+    <div class="w3-third">
+      <a href="/recruitlist.html" style="text-decoration: none;">
       <div class="w3-container w3-red w3-padding-16">
-        <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
-        <div class="w3-right">
-          <h3>52</h3>
-        </div>
-        <div class="w3-clear"></div>
-        <h4>Messages</h4>
-      </div>
-    </div>
-    <div class="w3-quarter">
-      <div class="w3-container w3-blue w3-padding-16">
-        <div class="w3-left"><i class="fa fa-eye w3-xxxlarge"></i></div>
-        <div class="w3-right">
-          <h3>99</h3>
-        </div>
-        <div class="w3-clear"></div>
-        <h4>Views</h4>
-      </div>
-    </div>
-    <div class="w3-quarter">
-      <div class="w3-container w3-teal w3-padding-16">
-        <div class="w3-left"><i class="fa fa-share-alt w3-xxxlarge"></i></div>
-        <div class="w3-right">
-          <h3>23</h3>
-        </div>
-        <div class="w3-clear"></div>
-        <h4>Shares</h4>
-      </div>
-    </div>
-    <div class="w3-quarter">
-      <div class="w3-container w3-orange w3-text-white w3-padding-16">
         <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
         <div class="w3-right">
-          <h3>50</h3>
+          <h3>4</h3>
         </div>
         <div class="w3-clear"></div>
-        <h4>Users</h4>
+        <h4>Recruits</h4>
       </div>
+    </a>
     </div>
+    <div class="w3-third">
+      <a href="/index.html#what_we_know" style="text-decoration: none;">
+      <div class="w3-container w3-blue w3-padding-16">
+        <div class="w3-left"><i class="fa fa-list w3-xxxlarge"></i></div>
+        <div class="w3-right">
+          <h3>15</h3>
+        </div>
+        <div class="w3-clear"></div>
+        <h4>Facts Known</h4>
+      </div>
+    </a>
+    </div>
+    <div class="w3-third">
+      <a href="https://github.com/benkurian/benkurian.github.io/commits/master" style="text-decoration: none;">
+      <div class="w3-container w3-teal w3-padding-16">
+        <div class="w3-left"><i class="fas fa-code-branch w3-xxxlarge"></i></div>
+        <div class="w3-right">
+          <h3>64</h3>
+        </div>
+              <div class="w3-clear"></div>
+        <h4>GitHub Commits</h4>
+      </div>
+    </a>
+    </div>
+    
   </div>
 
   <div class="w3-panel">
 
       <div >
         <h5>GitHub Commit Feeds</h5>
-        <script class="w3-table w3-striped w3-white" src="/assets/admincontrol/commitlist.js" ></script>
+        <script class="w3-table w3-striped w3-white" src="/assets/admincontrol/commitlist.js"></script>
 
 
       
@@ -113,40 +120,43 @@
   <hr>
   <div class="w3-container">
     <h5>General Stats</h5>
-    <p>New Visitors</p>
+    <p>Recruits That Have a Bear</p>
     <div class="w3-grey">
-      <div class="w3-container w3-center w3-padding w3-green" style="width:25%">+25%</div>
+      <div class="w3-container w3-center w3-padding w3-green" style="width:33.3%">33.3%</div>
     </div>
 
-    <p>New Users</p>
+    <p>Acceptance Rate</p>
     <div class="w3-grey">
-      <div class="w3-container w3-center w3-padding w3-orange" style="width:50%">50%</div>
+      <div class="w3-container w3-center w3-padding w3-orange" style="width:33.3%">33.3%</div>
     </div>
 
-    <p>Bounce Rate</p>
+    <p>Recruits That Have an Email</p>
     <div class="w3-grey">
-      <div class="w3-container w3-center w3-padding w3-red" style="width:75%">75%</div>
+      <div class="w3-container w3-center w3-padding w3-red" style="width:50%">50%</div>
     </div>
   </div>
   <hr>
 
   
   <div class="w3-container">
+    
     <h5>Recent Users</h5>
+    <a href="/recruitlist.html" style="text-decoration: none;">
     <ul class="w3-ul w3-card-4 w3-white">
       <li class="w3-padding-16">
-        <img src="/w3images/avatar2.png" class="w3-left w3-circle w3-margin-right" style="width:35px">
-        <span class="w3-xlarge">Mike</span><br>
+        
+        <span class="w3-xlarge">Arnav Edamadaka</span><br>
       </li>
       <li class="w3-padding-16">
-        <img src="/w3images/avatar5.png" class="w3-left w3-circle w3-margin-right" style="width:35px">
-        <span class="w3-xlarge">Jill</span><br>
+        
+        <span class="w3-xlarge">Vihaan Narayan</span><br>
       </li>
       <li class="w3-padding-16">
-        <img src="/w3images/avatar6.png" class="w3-left w3-circle w3-margin-right" style="width:35px">
-        <span class="w3-xlarge">Jane</span><br>
+       
+        <span class="w3-xlarge">Kelly (Mrs.) Gilliam</span><br>
       </li>
     </ul>
+  </a>
   </div>
   <hr>
 
