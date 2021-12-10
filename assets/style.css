@@ -139,3 +139,7 @@ html {
   button {
     border-radius: 4px;
   }
+  
+  .fa-sign-in-alt {
+    font-size: 1.25rem;
+  }
