@@ -21,3 +21,17 @@ function w3_close() {
   overlayBg.style.display = "none";
 }
 
+function copyUsername() {
+    var copyText = document.getElementById("username-field");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copyText.value);
+}
+
+function copyPassword() {
+    var copyText = document.getElementById("password-field");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copyText.value);
+}
+

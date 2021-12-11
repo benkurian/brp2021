@@ -18,6 +18,7 @@
 <link rel="stylesheet" href="/assets/style.css">
 <link rel="stylesheet" href="/assets/admincontrol.css">
   <script src="admincontrol.js"></script>
+  <link rel="stylesheet" href="/assets/login.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"><!DOCTYPE html>
 <!-- Navbar -->
 <div class="w3-top">
@@ -107,9 +108,38 @@
 
   <div class="w3-panel">
 
-      <div >
+      <div class="w3-twothird">
         <h5>GitHub Commit Feeds</h5>
         <script class="w3-table w3-striped w3-white" src="/assets/admincontrol/commitlist.js"></script>
+
+
+      
+      </div>
+
+      <div class="w3-third">
+        <h5 style="margin-left: 0.7rem;">GitHub Login</h5>
+
+    <center>
+          <input name="username" type="text" id="username-field" class="login-form-field" placeholder="Username" onpaste="return false;" ondrop="return false;" autocomplete="off" style="width: 75%;" onkeypress="return false;" value="brarmyadmin"><button style="    width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-left: 1.25rem;
+          margin-bottom: 16px;
+          width: 15%;
+          font-family: Lato;" onclick="copyUsername()">Copy</button>
+          <br>
+          <input name="password" type="password" id="password-field" class="login-form-field" placeholder="Password" onpaste="return false;" ondrop="return false;" autocomplete="off" style="width: 75%;" onkeypress="return false;" value="xa8hp6vqys"><button style=" padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-left: 1.25rem;
+          margin-bottom: 16px;
+          width: 15%;
+          font-family: Lato;"" onclick="copyPassword()">Copy</button>
+        </center>
+
 
 
       
