@@ -1,3 +1,8 @@
+#Archived
+> Hello to whoever reads this page. I worked hours on this website and I am extremely proud of it. I thank everyone who helped us and supported us along the way of this website and I felt I learned a lot. I have other ideas to pursue so I will be archiving this repo. Again, thank you all.
+
+Ben
+
 # Bear Research Project
 > The Bear Research Project is a research project led by Joseph Edward Gunder, Benjamin Kurian, and Arjun Urmil Pandya to learn about the anatomy of the specimen "Gummarus Ursa."
 > Website [_here_](https://benkurian.github.io). (benkurian.github.io)
